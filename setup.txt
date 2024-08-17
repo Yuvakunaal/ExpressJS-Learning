@@ -1,0 +1,13 @@
+Step-1 :- Install node : https://youtu.be/DFfDYjVlRZw?si=iCBnNRWd6HNbIf3e
+
+Step-2 :- Create a new empty folder and open it with vscode.
+
+Step-3 :- Open terminal in vscode
+
+Step-4 :- run the command 'node -v' (to check the version of node.if it shows any error,it means node is not installed)
+
+Step-5 :- run the command 'npm init -y'
+
+Step-6 :- run the command 'npm install express'
+
+....After successfully completing all these, You are done with setup of express
