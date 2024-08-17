@@ -11,3 +11,32 @@ Step-5 :- run the command 'npm init -y'
 Step-6 :- run the command 'npm install express'
 
 ....After successfully completing all these, You are done with setup of express
+
+Step-7 :- Create a file 'index.js'
+Step-8 :- To run :-
+---------------------------------------------------------------
+import express from 'express';
+const app = express();
+const port = 3000;
+
+app.get("/",(req,res) => {
+    res.send("Hello world !");
+});
+
+app.listen(port,() => {
+    console.log(`Server Running on port ${port}...`);
+});
+---------------------------------------------------------------
+write the above code in 'index.js' other js code....this js code is used to run the server in 3000 port
+-> After typing this in index.js
+-> run this command in vscode terminal :-
+mac users = ' sudo lsof -i -P -n | grep LISTEN '
+window users = ' netstat -ano | findstr "LISTENING" '
+(it asked for password, then type your system lockscreen password)
+
+-> after running this, run this command 'node index.js'
+-> http://localhost:3000/ -> copy and paste in google search... you will see the website...
+
+### There for the complete setup and running in local server is done.....
+
+Note : to exit terminal running :- press -> ctrl + c
