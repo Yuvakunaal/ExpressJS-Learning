@@ -37,6 +37,15 @@ window users = ' netstat -ano | findstr "LISTENING" '
 -> after running this, run this command 'node index.js'
 -> http://localhost:3000/ -> copy and paste in google search... you will see the website...
 
+#### Better way of running
+-> run this command to work with node globally means rather than stopping and re-running repeatedly we can install and use this everytime we work out with express or node -> 'npm i -g nodemon'
+-> now run this command :- 'npx nodemon index.js'
+-> by doing this, it automatically saves the changes and updates in website (without restarting the server)
+-> refresh webpage in google...
+
 ### There for the complete setup and running in local server is done.....
 
 Note : to exit terminal running :- press -> ctrl + c
+
+Additional :- 
+i. Download 'Postman' extension for checking Requests, (get,post,etc...)
