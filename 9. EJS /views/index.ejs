@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+<body>
+    <!-- Display Variable -->
+    <%= name %>
+    <%= name.toUpperCase() %>
+
+    <!-- Conditional Statement -->
+    <% if (id === 31){ %>
+        <h2>UserId = <%= id %></h2>
+    <% } else if(id === 30){ %>
+        <h3>UserId = <%= id %></h3>
+    <% } else{ %>
+        <h1>Nothing...</h1>
+    <% } %>
+
+    <!-- Loop Statement -->
+    <% for(let i=0;i<10;i++){ %>
+        <p> <%= i %> </p>
+    <% } %>
+
+    <!-- Date -->
+     <% let date = new Date() %>
+     <%= date %>
+</body>
+</html>
