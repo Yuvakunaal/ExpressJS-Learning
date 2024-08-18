@@ -1,5 +1,5 @@
 import express from 'express';
-import bodyParser from 'body-parser';   // Used to post data from website
+import bodyParser from 'body-parser';   // body-parser is one of middleware
 import { dirname } from "path";
 import { fileURLToPath } from 'url';
 const __dirName = dirname(fileURLToPath(import.meta.url));
